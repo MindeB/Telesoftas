@@ -10,6 +10,7 @@ import javax.annotation.Resource;
 @RestController
 public class BeanTwo {
 
+    // git comment
     @Resource(name = "optimist")
     private BeanOne messageBean;
 
